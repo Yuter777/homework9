@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.article-card {
+  border: 1px solid #a9a9a9;
+  width: 296px;
+  height: auto;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+}
+
+.category {
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background-color: #fff;
+  font-style: 0.5em;
+}
+
+.category.science {
+  color: #555;
+}
+
+.category.innovation {
+  color: #555;
+}
+
+.category.industry {
+  color: #555;
+}
+.box {
+  width: 100%;
+  height: 312px;
+  background-color: #109be9;
+  position: relative;
+}
+
+.body {
+  padding: 20px;
+}
+h2 {
+  font-size: 24px;
+}
